@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<COLLECTION>
+<TASK ip="192.168.1.112">
+  <FILE path="/usr/bin/try12.txt">
+    <MESSAGES>
+      <KEY priority="4">.*Warning</KEY>
+      <KEY priority="5">.*Error.*</KEY>
+    </MESSAGES>
+  </FILE>
+  <FILE path="/usr/bin/try13.txt">
+    <MESSAGES>
+      <KEY priority="2">.*Info</KEY>
+      <KEY priority="6">.*Fatal</KEY>
+    </MESSAGES>
+  </FILE>
+</TASK>
+<TASK ip="192.168.1.115">
+  <FILE path="/usr/bin/try14.txt">
+    <MESSAGES>
+      <KEY priority="4">.*Warning</KEY>
+      <KEY priority="5">.*Error.*</KEY>
+    </MESSAGES>
+  </FILE>
+  <FILE path="/usr/bin/try15.txt">
+    <MESSAGES>
+      <KEY priority="2">.*Info</KEY>
+      <KEY priority="6">.*Fatal</KEY>
+    </MESSAGES>
+  </FILE>
+</TASK>
+</COLLECTION>
